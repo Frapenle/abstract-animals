@@ -17,8 +17,13 @@ public class Main {
 		Animal[] animals = {cane, passerotto, aquila, delfino};
 		
 		for (Animal animal : animals) {
+			String animalType = animal.getClass().getSimpleName();
+			System.out.println("Sono un " + animalType + ":");
+			System.out.print("Dormo: ");
 			animal.dormi();
+			System.out.print("Mangio: ");
 			animal.mangia();
+			System.out.print("Il mio verso: ");
 			animal.verso();
 			System.out.println("---------");
 		}
