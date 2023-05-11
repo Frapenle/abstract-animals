@@ -1,7 +1,6 @@
 package org.java.animal;
 
 import org.java.amanager.Nuotare;
-import org.java.amanager.Volare;
 import org.java.animal.abs.Animal;
 
 public class Cane extends Animal implements Nuotare{
